@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<title>Guest List</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="bdy">
+    <div class="container-fluid">
+        <h1 id="header">Guest List</h1>
+        <span>
+            <br>
+            <input class="form-control" type="text" id="input" placeholder="Enter name of the guest">
+            <button type="button" id="submit" onclick="submit()">Submit</button>
+
+        </span>
+        <hr>
+        <h4 id="h41"></h4>
+        <hr>
+        <h1 id="header_2">Guest List</h1>
+        <button type="button" id="show" onclick="dispay()">Show</button>
+        <h4 id=h42></h4>
+        <hr>
+        <button type="button" id="sort" onclick="arrange()">Sorted List</button>
+        <h4 id="h43"></h4>
+        <br>
+        <hr>
+        <span>
+        <input class="form-control" type="text" id="input_search" placeholder="Enter a name to search">
+        <button type="button" id="search" onclick="search()">Search</button>
+        </span>
+        <h4 id="h44"></h4>
+        <hr>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.container-fluid, #bdy{
+    background-image:linear-gradient(rgb(208, 230, 255), rgb(176, 211, 251), rgb(208, 230, 255));
+    text-align:center;
+    width: 100%;
+    height: 100%;
+}
+
+#header, #header_2{
+    font-family: 'Neonderthaw', cursive;    
+    font-size: 100px;
+}
+
+#h41, #h42, #h43, #h44{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+#submit{
+    border-radius: 40px;
+    padding: 20px;
+    background-image:linear-gradient(rgb(147, 197, 255), rgb(130, 188, 255), rgb(32, 136, 255));
+    border-style: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    margin: 30px;
+}
+
+#submit:hover{
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px gray;
+}
+
+#show{
+    border-radius: 40px;
+    padding: 20px;
+    background-image:linear-gradient(rgb(147, 255, 192), rgb(130, 255, 207), rgb(32, 255, 207));
+    border-style: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    margin: 30px;
+}
+
+#show:hover{
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px gray;
+}
+
+#sort{
+    border-radius: 40px;
+    padding: 20px;
+    background-image:linear-gradient(rgb(197, 147, 255), rgb(209, 130, 255), rgb(147, 32, 255));
+    border-style: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    margin: 30px;
+}
+
+#sort:hover{
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px gray;
+}
+
+#search{
+    border-radius: 40px;
+    padding: 20px;
+    background-image:linear-gradient(rgb(255, 239, 147), rgb(255, 253, 130), rgb(251, 255, 32));
+    border-style: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    margin: 30px;
+}
+
+#search:hover{
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px gray;
+}
+
+#input, #input_search{
+    margin:10px;
+    padding:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
+    border-radius: 20px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 3.9s 0.6s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: rgb(15, 79, 255);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
